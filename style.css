@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/404_V2/img/portal.png), url(/404/img/681b00d06b2e20e4fe7c5dd5d2fcc63d-removebg-preview.png);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center center, center center;
+    animation: rotationClockwise 10s linear infinite;
+    animation: rotationCounterClockwise 10s lin
+    
+}
+
+
+@keyframes rotationClockwise {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotationCounterClockwise {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+h1 {
+    font-size: 4rem;
+    position: absolute;
+}
