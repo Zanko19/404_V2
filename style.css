@@ -2,7 +2,7 @@ body {
     margin: 0;
     overflow: hidden;
     display: flex;
-    background-image: url(/404-page/img/681b00d06b2e20e4fe7c5dd5d2fcc63d-removebg-preview.png);
+    background-image: url(/404_V2/img/681b00d06b2e20e4fe7c5dd5d2fcc63d-removebg-preview.png);
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -37,8 +37,8 @@ h1 {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
+    transform: translate( -50%, 0%);
+    z-index: 1;
 }
 #image1 {
     animation: rotationCounterClockwise 5s linear infinite;
